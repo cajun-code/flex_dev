@@ -29,7 +29,7 @@ namespace :flex do
   desc "Clean Flex Build directory"
   task :clean do
     rm_rf "#{FLEX_BIN}/#{FLEX_OUTPUT_FILE}"
-    rmdir FLEX_BIN
+    #rmdir FLEX_BIN
   end
 
   desc "Copy Flex application into public rails folder"
